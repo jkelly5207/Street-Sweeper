@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9678AB3B293D357100D2DDE3 /* JTAppleCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 9678AB3A293D357100D2DDE3 /* JTAppleCalendar */; };
+		9678AB3D293D376800D2DDE3 /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9678AB3C293D376800D2DDE3 /* DateCell.swift */; };
+		96E8E83D2945292800B064FA /* StreetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E8E83C2945292800B064FA /* StreetViewController.swift */; };
 		96F5DEF42933A6B400073AB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5DEF32933A6B400073AB8 /* AppDelegate.swift */; };
 		96F5DEF62933A6B400073AB8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5DEF52933A6B400073AB8 /* SceneDelegate.swift */; };
-		96F5DEF82933A6B400073AB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5DEF72933A6B400073AB8 /* ViewController.swift */; };
+		96F5DEF82933A6B400073AB8 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5DEF72933A6B400073AB8 /* HomeScreen.swift */; };
 		96F5DEFB2933A6B400073AB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F5DEF92933A6B400073AB8 /* Main.storyboard */; };
 		96F5DEFE2933A6B400073AB8 /* Street_Sweeper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96F5DEFC2933A6B400073AB8 /* Street_Sweeper.xcdatamodeld */; };
 		96F5DF002933A6B600073AB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F5DEFF2933A6B600073AB8 /* Assets.xcassets */; };
@@ -17,6 +20,10 @@
 		96F5DF0E2933A6B700073AB8 /* Street_SweeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5DF0D2933A6B700073AB8 /* Street_SweeperTests.swift */; };
 		96F5DF182933A6B700073AB8 /* Street_SweeperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5DF172933A6B700073AB8 /* Street_SweeperUITests.swift */; };
 		96F5DF1A2933A6B700073AB8 /* Street_SweeperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5DF192933A6B700073AB8 /* Street_SweeperUITestsLaunchTests.swift */; };
+		96F5DF272933AED900073AB8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5DF262933AED900073AB8 /* Extensions.swift */; };
+		96F5DF292933B22500073AB8 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5DF282933B22500073AB8 /* Controller.swift */; };
+		96F5DF2B2933B23A00073AB8 /* StreetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5DF2A2933B23A00073AB8 /* StreetModel.swift */; };
+		96F5DF2D2933DAED00073AB8 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5DF2C2933DAED00073AB8 /* LocationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9678AB3C293D376800D2DDE3 /* DateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
+		96E8E83C2945292800B064FA /* StreetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetViewController.swift; sourceTree = "<group>"; };
 		96F5DEF02933A6B400073AB8 /* Street Sweeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Street Sweeper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96F5DEF32933A6B400073AB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96F5DEF52933A6B400073AB8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		96F5DEF72933A6B400073AB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96F5DEF72933A6B400073AB8 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		96F5DEFA2933A6B400073AB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96F5DEFD2933A6B400073AB8 /* Street_Sweeper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Street_Sweeper.xcdatamodel; sourceTree = "<group>"; };
 		96F5DEFF2933A6B600073AB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +60,10 @@
 		96F5DF132933A6B700073AB8 /* Street SweeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Street SweeperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96F5DF172933A6B700073AB8 /* Street_SweeperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Street_SweeperUITests.swift; sourceTree = "<group>"; };
 		96F5DF192933A6B700073AB8 /* Street_SweeperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Street_SweeperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		96F5DF262933AED900073AB8 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		96F5DF282933B22500073AB8 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		96F5DF2A2933B23A00073AB8 /* StreetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetModel.swift; sourceTree = "<group>"; };
+		96F5DF2C2933DAED00073AB8 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9678AB3B293D357100D2DDE3 /* JTAppleCalendar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,8 +117,14 @@
 			children = (
 				96F5DEF32933A6B400073AB8 /* AppDelegate.swift */,
 				96F5DEF52933A6B400073AB8 /* SceneDelegate.swift */,
-				96F5DEF72933A6B400073AB8 /* ViewController.swift */,
+				96F5DEF72933A6B400073AB8 /* HomeScreen.swift */,
+				9678AB3C293D376800D2DDE3 /* DateCell.swift */,
+				96F5DF282933B22500073AB8 /* Controller.swift */,
+				96F5DF2A2933B23A00073AB8 /* StreetModel.swift */,
+				96F5DF262933AED900073AB8 /* Extensions.swift */,
 				96F5DEF92933A6B400073AB8 /* Main.storyboard */,
+				96E8E83C2945292800B064FA /* StreetViewController.swift */,
+				96F5DF2C2933DAED00073AB8 /* LocationViewController.swift */,
 				96F5DEFF2933A6B600073AB8 /* Assets.xcassets */,
 				96F5DF012933A6B600073AB8 /* LaunchScreen.storyboard */,
 				96F5DF042933A6B600073AB8 /* Info.plist */,
@@ -146,6 +166,9 @@
 			dependencies = (
 			);
 			name = "Street Sweeper";
+			packageProductDependencies = (
+				9678AB3A293D357100D2DDE3 /* JTAppleCalendar */,
+			);
 			productName = "Street Sweeper";
 			productReference = 96F5DEF02933A6B400073AB8 /* Street Sweeper.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +241,9 @@
 				Base,
 			);
 			mainGroup = 96F5DEE72933A6B400073AB8;
+			packageReferences = (
+				9678AB39293D357100D2DDE3 /* XCRemoteSwiftPackageReference "JTAppleCalendar" */,
+			);
 			productRefGroup = 96F5DEF12933A6B400073AB8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -261,10 +287,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96F5DF272933AED900073AB8 /* Extensions.swift in Sources */,
 				96F5DEFE2933A6B400073AB8 /* Street_Sweeper.xcdatamodeld in Sources */,
-				96F5DEF82933A6B400073AB8 /* ViewController.swift in Sources */,
+				96F5DEF82933A6B400073AB8 /* HomeScreen.swift in Sources */,
+				96F5DF292933B22500073AB8 /* Controller.swift in Sources */,
+				9678AB3D293D376800D2DDE3 /* DateCell.swift in Sources */,
 				96F5DEF42933A6B400073AB8 /* AppDelegate.swift in Sources */,
 				96F5DEF62933A6B400073AB8 /* SceneDelegate.swift in Sources */,
+				96F5DF2B2933B23A00073AB8 /* StreetModel.swift in Sources */,
+				96F5DF2D2933DAED00073AB8 /* LocationViewController.swift in Sources */,
+				96E8E83D2945292800B064FA /* StreetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,11 +476,14 @@
 				DEVELOPMENT_TEAM = C92DPC6L4W;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Street Sweeper/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Your location is used to save parking location";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Your location is used to save parking location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,11 +507,14 @@
 				DEVELOPMENT_TEAM = C92DPC6L4W;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Street Sweeper/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Your location is used to save parking location";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Your location is used to save parking location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -606,6 +644,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9678AB39293D357100D2DDE3 /* XCRemoteSwiftPackageReference "JTAppleCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/patchthecode/JTAppleCalendar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9678AB3A293D357100D2DDE3 /* JTAppleCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9678AB39293D357100D2DDE3 /* XCRemoteSwiftPackageReference "JTAppleCalendar" */;
+			productName = JTAppleCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		96F5DEFC2933A6B400073AB8 /* Street_Sweeper.xcdatamodeld */ = {
